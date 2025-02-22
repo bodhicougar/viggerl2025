@@ -12,13 +12,15 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.2.1",
     "@fontsource-variable/instrument-sans": "^5.1.0",
-    "astro": "^5.3.0",
+    "astro": "^2.4.5",
     "astro-seo": "^0.8.4",
     "gsap": "^3.12.5",
     "imagesloaded": "^5.0.0",
     "lenis": "^1.1.17"
   },
   "devDependencies": {
+    "@stackbit/cms-git": "^0.0.14",
+    "@stackbit/types": "^2.1.14",
     "@types/imagesloaded": "^4.1.6"
   }
 }
