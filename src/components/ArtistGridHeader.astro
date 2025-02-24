@@ -1,8 +1,8 @@
 ---
-import TextSlider from "../components/TextSlider.astro";
-import Separator from "../components/Separator.astro";
-import Search from "../components/Search.astro";
-import Cross from "../assets/images/cross.svg";
+import TextSlider from '../components/TextSlider.astro';
+import Separator from '../components/Separator.astro';
+import Search from '../components/Search.astro';
+import Cross from '../assets/images/cross.svg';
 
 type Props = {
   artistsTotal: number;
@@ -12,7 +12,7 @@ const { artistsTotal } = Astro.props;
 ---
 
 <header class="title-header title-header--initial">
-  <h2><TextSlider content="Artists" /></h2>
+  <h2><TextSlider content="Actress" /></h2>
   <div>
     <button data-sort><TextSlider content="Sort" /></button>
     <button data-shuffle><TextSlider content="Shuffle" /></button>
@@ -47,7 +47,7 @@ const { artistsTotal } = Astro.props;
   }
   div:has(> .search--active)::before {
     pointer-events: none;
-    content: "";
+    content: '';
     position: absolute;
     left: -1rem;
     right: -1rem;
