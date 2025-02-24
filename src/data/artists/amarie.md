@@ -1,7 +1,7 @@
 ---
-name: "Anna Viktoria Castellano"
-stage_name: "Viggerl"
-genre: "Character actress"
+name: "Viktoria Castellano"
+stage_name: "Viktoria"
+genre: "Actress"
 image: 
     src: "/images/artists/maria-stewart-close-up.webp"
     alt: "Viktoria with a bold and mysterious presence under dramatic lighting"
