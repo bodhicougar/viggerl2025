@@ -1,10 +1,10 @@
 ---
-name: "Evelyn Harper"
-stage_name: "Echo Lume"
-genre: "Synthwave"
+name: "Viktoria Castellano in: "
+stage_name: "Viktoria"
+genre: "Actress"
 image: 
-    src: "/images/artists/echo_lume.webp"
-    alt: "Echo Lume performing under neon lights"
+    src: "/images/artists/pose.webp"
+    alt: "Viktoria performing under neon lights"
 ---
 
 Evelyn Harper, better known by her stage name Echo Lume, is a visionary artist in the synthwave genre. Drawing inspiration from the neon-soaked aesthetics of the 1980s, she crafts atmospheric tracks that transport listeners to a cyberpunk dreamscape.

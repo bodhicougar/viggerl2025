@@ -1,10 +1,10 @@
 ---
-name: "Rajiv Bhatia"
-stage_name: "DJ Bolly"
-genre: "Fusion"
+name: "Viktoria Castellano in: "
+stage_name: "Viktoria"
+genre: "Actress"
 image: 
-    src: "/images/artists/dj_bolly.webp"
-    alt: "DJ Bolly mixing tracks at a high-energy rooftop party"
+    src: "/images/artists/entspannt.webp"
+    alt: "Viktoria mixing tracks at a high-energy rooftop party"
 ---
 
 Rajiv Bhatia, globally recognized as DJ Bolly, is a trailblazer in the Bollywood fusion music scene. Born in Mumbai, DJ Bolly combines traditional Indian music with global electronic beats, creating a sound that is both nostalgic and refreshingly modern.
