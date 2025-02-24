@@ -1,13 +1,13 @@
 ---
-import type { CollectionEntry } from "astro:content";
-import { getCollection, render } from "astro:content";
-import BaseLayout from "../layouts/BaseLayout.astro";
-import Separator from "../components/Separator.astro";
-import AlbumGrid from "../components/AlbumGrid.astro";
+import type { CollectionEntry } from 'astro:content';
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Separator from '../components/Separator.astro';
+import AlbumGrid from '../components/AlbumGrid.astro';
 
 export const getStaticPaths = async () => {
   // Fetch all artists from the 'artists' collection
-  const artists = await getCollection("artists");
+  const artists = await getCollection('artists');
 
   // Map over the artists to generate paths for each artist's page
   const paths = artists.map((artist) => {
@@ -22,8 +22,8 @@ export const getStaticPaths = async () => {
 };
 
 type Props = {
-  artists: CollectionEntry<"artists">[]; // Array of all artists in the collection
-  artist: CollectionEntry<"artists">; // Current artist being rendered
+  artists: CollectionEntry<'artists'>[]; // Array of all artists in the collection
+  artist: CollectionEntry<'artists'>; // Current artist being rendered
 };
 
 const { artists, artist } = Astro.props; // Extract the artists list and current artist from the props
@@ -42,8 +42,8 @@ const nextArtist = artists[nextArtistIndex];
 
 // Fetch all albums that belong to the current artist
 const albums = await getCollection(
-  "albums",
-  ({ data }) => data.artist.id === artist_id,
+  'albums',
+  ({ data }) => data.artist.id === artist_id
 );
 
 // Render the content of the current artist (e.g., markdown or MDX)
@@ -90,15 +90,15 @@ const { Content } = await render(artist);
 </BaseLayout>
 <style>
   .content-wrap {
-    grid-template-areas: "img" "content" "albums";
+    grid-template-areas: 'img' 'content' 'albums';
     grid-template-columns: 100%;
     @media screen and (min-width: 44em) {
       grid-template-columns: 1fr auto;
-      grid-template-areas: "img img" "content albums";
+      grid-template-areas: 'img img' 'content albums';
     }
     @media screen and (min-width: 50em) {
       grid-template-columns: 30vw 1fr 170px;
-      grid-template-areas: "img content albums";
+      grid-template-areas: 'img content albums';
     }
   }
   .albums {
