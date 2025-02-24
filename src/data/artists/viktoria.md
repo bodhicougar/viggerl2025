@@ -3,7 +3,7 @@ name: "Viktoria Castellano"
 stage_name: "Viktoria"
 genre: "Actress"
 image: 
-    src: "/images/artists/maria-stewart-close-up.webp"
+    src: "/images/artists/profile.webp"
     alt: "Viktoria with a bold and mysterious presence under dramatic lighting"
 ---
 
